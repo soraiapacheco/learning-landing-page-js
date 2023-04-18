@@ -8,7 +8,7 @@
 .main-content {
     max-width: 120rem; /*1200px = 120rem*/
     margin: 0 auto;
-    padding: var(--gap);
+    padding: 10rem var(--gap);
 }
 
 .white-bg {
