@@ -1,2 +1,29 @@
 
 
+.intro-content {
+    display: grid;
+    position: relative;
+    top: -8rem;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.intro-text-content, .intro-img {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.intro-text-content h2{
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.intro-img img{
+    max-width: 100%;
+    height: auto;
+
+}
